@@ -10,6 +10,8 @@ namespace Красников_задания_асmр.ru
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine(Convert.ToInt32(Console.ReadLine()) + Convert.ToInt32(Console.ReadLine()));
         }
     }
 }
