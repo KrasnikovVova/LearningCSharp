@@ -4,14 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Красников_задания_асmр.ru
+namespace заново
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine(Convert.ToInt64(Console.ReadLine()) + Convert.ToInt64(Console.ReadLine()));
+            Random rnd = new Random();
+            int[] nums = new int[20];
+            for (int i = 0; i < 20; i++) 
+            {
+                nums[i] = rnd.Next(-100, 101);
+            }
+            for (int i = 0; i < 20; i++) 
+            {
+                Console.Write(" " + nums[i] + " ");
+            }
+            Console.ReadLine();
         }
     }
 }
+
